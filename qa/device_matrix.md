@@ -3,7 +3,7 @@
 **Desktop – Chrome**
 
 - Version: latest stable
-- Notes: Primary test — must pass
+- Notes: Primary test -- must pass
 
 **Desktop – Microsoft Edge**
 
