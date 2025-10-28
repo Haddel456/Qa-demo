@@ -2,15 +2,15 @@
 
 **Desktop – Chrome**
 
-- Version: latest stable (e.g., 117)
+- Version: latest stable
 - Notes: Primary test — must pass
 
 **Desktop – Microsoft Edge**
 
-- Version: latest stable (e.g., 117)
+- Version: latest stable
 - Notes: Verify cart persistence differences
 
 **Mobile (emulated) – Chrome Mobile**
 
-- Version: emulate 360x800
+- Version: emulate
 - Notes: Basic responsive checks
