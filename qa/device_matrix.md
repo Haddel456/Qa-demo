@@ -5,7 +5,8 @@
 - Version: latest stable (e.g., 117)
 - Notes: Primary test — must pass
 
-- Desktop – Microsoft Edge
+**Desktop – Microsoft Edge**
+
 - Version: latest stable (e.g., 117)
 - Notes: Verify cart persistence differences
 
