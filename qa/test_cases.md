@@ -188,9 +188,9 @@ Product grid stacks appropriately, buttons visible and tappable
 
 Actual:Optimize page for mobile — scale down and preserve UI/UX
 
-Status:Pass
-Suite Type: Responsive
-Notes:
+- Status:Pass
+- Suite Type: Responsive
+- Notes:
 
 ---
 
