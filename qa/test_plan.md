@@ -26,6 +26,8 @@ Internationalization implementation (site is LTR English-only).
 2. Checkout form validation.
 3. when the user add the items to cart , does not show thw image for the prodect
 
+**note** the user can not registering (sign up)
+
 **test data**
 
 Standard test user (provided by site):
