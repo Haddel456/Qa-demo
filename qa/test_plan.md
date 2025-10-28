@@ -45,3 +45,15 @@ Test accounts work (sanity login succeeds for standard_user).
 
 **exit criteria**
 All critical and high severity bugs fixed or mitigated.
+
+**Expected RTL risks (Arabic/Hebrew)**
+
+- Even though Sauce Demo is an LTR demo, below are concrete RTL risk points observed on the UI elements inspected that would likely break when localized to Arabic/Hebrew:
+
+- Header & nav items (top-left logo, menu) — fixed LTR spacing; in RTL the logo may collide with nav items and expected left/right paddings won't flip.
+
+- Product grid cards — image alignment, price and Add to cart button placement assume LTR; caret/chevron icons near the product title would need mirroring.
+
+- Sort dropdown ("Name (A to Z)") — dropdown arrow and selected item alignment may remain left-aligned; caret might not mirror and reading order will be wrong.
+
+- Form input validation messages (Checkout: First/Last) — messages appear left of inputs or anchored to LTR flows; in RTL they must be right-aligned and not overlap icons.

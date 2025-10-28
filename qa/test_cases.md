@@ -14,8 +14,8 @@
 - Actual:
   The user login in and see the Products page
 
-Status: Psss
-Suite Type: functional and secirty
+- Status: Psss
+- Suite Type: functional and secirty
 
 ---
 
@@ -162,38 +162,39 @@ Suite Type: functional and secirty
 
 ---
 
-ID :TC-09
-Title: Product Sorting - Price Low→High
-Preconditions:Logged in
-Steps:
+- ID :TC-09
+- Title: Product Sorting - Price Low→High
+- Preconditions:Logged in
+- Steps:
 
 1. login
 2. On Products page,
 3. open Sort dropdown
 4. Select "Price (low to high)"
 
-Expected:
-Products sorted by price ascending
+- Expected:
+  Products sorted by price ascending
 
-Actual: The low Price items show first
-Status:Pass
-Suite Type: Functional
-Notes:
+- Actual:
+  The low Price items show first
+- Status:Pass
+- Suite Type: Functional
+- Notes:
 
 ---
 
-ID :TC-10
-Title: Responsive: Mobile viewport product grid
-Preconditions: Logged in
-Steps:
+- ID :TC-10
+- Title: Responsive: Mobile viewport product grid
+- Preconditions: Logged in
+- Steps:
 
 1. mulate mobile viewport (360x800)
 2. Load Products page
 
-Expected:
-Product grid stacks appropriately, buttons visible and tappable
+- Expected:
+  Product grid stacks appropriately, buttons visible and tappable
 
-Actual:Optimize page for mobile — scale down and preserve UI/UX
+- Actual:Optimize page for mobile — scale down and preserve UI/UX
 
 - Status:Pass
 - Suite Type: Responsive
