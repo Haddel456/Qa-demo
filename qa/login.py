@@ -2,8 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import  By 
+import os
 import pytest 
 import time 
+
+
+
 
 @pytest.fixture
 def driver():
@@ -48,7 +52,10 @@ def test_login(driver , username , password , expected_success):
         )
         success = True
     except:
-        success = False   
+        success = False      
+        os.makedirs("screenshots", exist_ok=True)
+        driver.save_screenshot(f"screenshots/screenshot_{username}.png")
+       
     assert success == expected_success, f"Login for {username} expacted {expected_success} but get {success} "
 
 
